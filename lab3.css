@@ -1,0 +1,33 @@
+.block{
+    width: 200px;
+    height: 300px;
+    padding: 50px;
+    margin: 1rem;
+}
+
+#block1{
+    background: linear-gradient(45deg, purple, pink);
+    border: 3px solid red;
+}
+
+#block2{
+    background-image: url(https://icarus.upc.edu/en/figs/fons-cel.jpg/@@images/image.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-left: 1px solid red;
+    border-right: 3px solid green;
+    border-bottom: 8px solid black;
+    border-top: 4px solid yellow;
+    border-radius: 10px;
+}
+
+#block3{
+    height: 600px;
+    width: 600px;
+    background-image: url(https://img.freepik.com/free-photo/high-view-cup-of-coffee-on-table_23-2148251697.jpg?size=626&ext=jpg), url(https://techlogitic.net/wp-content/uploads/2020/04/Photos-A-Cool-Touch-With-Online-Photo-Editor.jpg);
+    background-repeat: no-repeat, repeat-x;
+    background-position: left center, bottom right;
+    background-attachment: scroll, fixed;
+    background-size: initial;
+}
